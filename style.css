@@ -121,3 +121,28 @@ footer {
     width: 100%;
     font-size: 0.8rem;
 }
+
+/*不明漂浮物*/
+#photo{
+    display: block;
+    position: fixed;
+    color: red;
+    background-color: aqua;
+    animation: movement 30s infinite;
+    transition: 2s;
+    z-index: 100;
+}
+
+#photo:hover{
+    opacity: 0;
+    animation-duration: 5s;
+    rotate: 3600deg;
+}
+
+@keyframes movement {
+    0%{left: 0;top: 0;}
+    25%{left: calc(100% - 50px);top: calc(100% - 50px);}
+    50%{left: calc(100% - 50px);top: 0;}
+    75%{left: 0;top: calc(100% - 50px);}
+    100%{left: 0;top: 0;}
+}
