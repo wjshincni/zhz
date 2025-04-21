@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息系统知识考试答卷</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>信息系统知识考试答卷</h1>
+    </header>
+    <main>
+        <section class="question">
+            <h2>一、选择题（每题5分，共25分）</h2>
+            <div class="single-choice">
+                <p>1. 下列选项中，属于信息系统组成部分的是（  ）</p>
+                <input type="radio" id="q1a" name="q1" value="A">
+                <label for="q1a">A. 人、硬件、软件、数据</label><br>
+                <input type="radio" id="q1b" name="q1" value="B">
+                <label for="q1b">B. 仅硬件和软件</label><br>
+                <input type="radio" id="q1c" name="q1" value="C">
+                <label for="q1c">C. 只有数据</label><br>
+                <input type="radio" id="q1d" name="q1" value="D">
+                <label for="q1d">D. 人、硬件、软件，但不包括数据</label>
+            </div>
+            <div class="single-choice">
+                <p>2. 按照功能划分，图书馆管理系统属于（  ）</p>
+                <input type="radio" id="q2a" name="q2" value="A">
+                <label for="q2a">A. 事务处理系统</label><br>
+                <input type="radio" id="q2b" name="q2" value="B">
+                <label for="q2b">B. 决策支持系统</label><br>
+                <input type="radio" id="q2c" name="q2" value="C">
+                <label for="q2c">C. 管理信息系统</label><br>
+                <input type="radio" id="q2d" name="q2" value="D">
+                <label for="q2d">D. 专家系统</label>
+            </div>
+            <div class="single-choice">
+                <p>3. 在信息系统开发过程中，确定系统“做什么”的阶段是（  ）</p>
+                <input type="radio" id="q3a" name="q3" value="A">
+                <label for="q3a">A. 系统分析</label><br>
+                <input type="radio" id="q3b" name="q3" value="B">
+                <label for="q3b">B. 系统设计</label><br>
+                <input type="radio" id="q3c" name="q3" value="C">
+                <label for="q3c">C. 系统实施</label><br>
+                <input type="radio" id="q3d" name="q3" value="D">
+                <label for="q3d">D. 系统运行与维护</label>
+            </div>
+            <div class="single-choice">
+                <p>4. 关于B/S架构和C/S架构，说法正确的是（  ）</p>
+                <input type="radio" id="q4a" name="q4" value="A">
+                <label for="q4a">A. B/S架构客户端需要安装专门软件</label><br>
+                <input type="radio" id="q4b" name="q4" value="B">
+                <label for="q4b">B. C/S架构适合跨平台使用</label><br>
+                <input type="radio" id="q4c" name="q4" value="C">
+                <label for="q4c">C. B/S架构安全性比C/S架构高</label><br>
+                <input type="radio" id="q4d" name="q4" value="D">
+                <label for="q4d">D. C/S架构响应速度相对较快</label>
+            </div>
+            <div class="single-choice">
+                <p>5. 以下不属于信息系统开发前期准备工作的是（  ）</p>
+                <input type="radio" id="q5a" name="q5" value="A">
+                <label for="q5a">A. 系统测试</label><br>
+                <input type="radio" id="q5b" name="q5" value="B">
+                <label for="q5b">B. 需求分析</label><br>
+                <input type="radio" id="q5c" name="q5" value="C">
+                <label for="q5c">C. 可行性分析</label><br>
+                <input type="radio" id="q5d" name="q5" value="D">
+                <label for="q5d">D. 开发模式选择</label>
+            </div>
+        </section>
+        <section class="question">
+            <h2>二、简答题（每题15分，共45分）</h2>
+            <div class="short-answer">
+                <p>1. 请简要描述信息系统的生命周期包含哪些阶段，并说明每个阶段的主要任务。（至少答对3个阶段得10分，全答对得15分）</p>
+                <textarea id="q6" rows="5" cols="50"></textarea>
+            </div>
+            <div class="short-answer">
+                <p>2. 举例说明B/S架构在日常生活中的应用场景，并阐述其优势。（举例正确得5分，阐述优势至少2点得10分）</p>
+                <textarea id="q7" rows="5" cols="50"></textarea>
+            </div>
+            <div class="short-answer">
+                <p>3. 以校园食堂点餐系统为例，分析该系统的功能需求（至少写出3个功能需求得10分，多写一个加2分，满分15分）。</p>
+                <textarea id="q8" rows="5" cols="50"></textarea>
+            </div>
+        </section>
+        <section class="question">
+            <h2>三、设计题（30分）</h2>
+            <div class="design-question">
+                <p>设计一个校园图书借阅系统，完成以下内容：</p>
+                <ul>
+                    <li>系统概要设计：包括系统功能模块划分（至少3个模块，每个模块5分，共15分）。</li>
+                    <li>选择合适的系统架构模式（B/S或C/S）并说明理由（5分选择正确架构，10分理由充分合理）。</li>
+                </ul>
+                <textarea id="q9" rows="10" cols="50"></textarea>
+            </div>
+        </section>
+        <div class="mid-put">
+            <button id="submitButton">提交答卷</button>
+        </div>
+        <div id="result">系统批分</div>
+    </main>
+    <footer>
+        <p>唐天笑的豆包 版权所有 六百六十六© 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
